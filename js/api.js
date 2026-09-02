@@ -1,5 +1,5 @@
-const API_KEY = "cda4fa97d1a936cec0f23de6f3fbb63d";
-const BASE_URL = "https://api.openweathermap.org/data/2.5";
+const API_KEY = "YOUR_API_KEY_HERE";
+const BASE_URL = "WEATHER_URL_HERE";
 
 async function getWeatherData(city, type) {
     const url = `${BASE_URL}/${type}?q=${encodeURIComponent(city)}&appid=${API_KEY}&units=metric`;
